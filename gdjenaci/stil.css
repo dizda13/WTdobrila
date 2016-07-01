@@ -1,0 +1,350 @@
+@import url(http://fonts.googleapis.com/css?family=Gabriela);
+BODY {
+  font-family: sans-serif;
+  background-color: brown;
+  background-image: linear-gradient(to bottom, Brown, #BC5F5F 100%);
+  background-attachment: fixed;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 14px;
+}
+
+.container {
+  position: relative;
+  font-family: Gabriela;
+  width: 60%;
+  margin: auto;
+  height: auto;
+  background: white;
+  min-height: 100%;
+}
+
+header {
+  width: 90%;
+  background: FireBrick;
+  background-image: linear-gradient(to bottom, FireBrick, White 100%);
+  padding: 5%;
+  position: relative;
+  display: inline-block;
+  text-align: right;
+
+}
+
+
+h1 {
+  font-size: 282.8%;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 8%;
+  display: inline-block;
+  margin-right: 1em;
+  text-align: right;
+}
+
+
+.glavnaT {
+  font-size:  220%;
+  margin: 0;
+  padding: 0;
+  background-color: FireBrick;
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+
+
+.traka {
+  float: left;
+}
+
+
+.traka2 {
+  overflow: hidden;
+  display: block;
+  text-align: left;
+  padding: 14px 28px 14px 28px;
+  text-decoration: none;
+  color: black;
+}
+.traka2:hover {
+  background-color: #561010;
+}
+.active {
+  overflow: hidden;
+  display: block;
+  text-align: left;
+  padding: 14px 28px 14px 28px;
+  text-decoration: none;
+  color: white;
+}
+
+
+header .hide-completed {
+  float: right;
+}
+
+table {
+  margin-top: 10%;
+  width: 96%;
+  margin-left: 2%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.paran {
+    background-color: FireBrick;
+    color: white;
+}
+
+form {
+}
+
+input.cntr {
+  margin: auto;
+  align: center;
+  display:block;
+}
+
+.mojLab {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+
+.livo {
+  display: inline-block;
+  margin-top: 5%;
+  width: 47%;
+  margin-left: 2%;
+  height: 60%;
+  overflow-y: scroll;
+  visibility: visible;
+}
+
+.slika{
+  float:left;
+  width: 94%;
+  height: 50%;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.linkovi{
+  list-style-type: none;
+}
+
+.bulit{
+  margin-right: 5px;
+  height: 18px;
+  width: 18px;
+  display: none;
+  text-decoration: none;
+}
+
+.proba{
+  text-decoration: none;
+  color: black;
+}
+
+.proba:hover .bulit{
+  display: inline;
+}
+
+h2{
+ margin-left: 2%;
+ margin-bottom: 0%;
+}
+
+h3{
+
+  margin-top: 0%;
+ margin-left: 2%;
+}
+
+textarea{
+  margin-top: 0%;
+  width: 96%;
+  height: 30%;
+}
+
+time {
+  font-family: sans-serif;
+  color: red;
+  font-size: 10px;
+  display: block;
+}
+
+.links{
+  width: 96%;
+}
+
+.okvir{
+  background-color: FireBrick;
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
+  align: centar;
+  margin-bottom: 10%;
+  display: inline-block;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 2%;
+  border-style: inset;
+  margin-left: 3%;
+  width: 60%;
+}
+
+.dodaj{
+  font-size: 18px;
+}
+
+.dropdown{
+  font-size: 20px;
+  margin-left: 3%;
+}
+.dino{
+  background-color: FireBrick;
+  margin-top: 10%;
+  width: 70%;
+  height: 40%;
+  margin-left: 15%;
+  align: centar;
+  margin-bottom: 10%;
+  display: inline-block;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.nedivljiv{
+  display: none;
+}
+
+.komentari{
+  text-decoration: underline;
+  color: 	#FF8C00;
+}
+
+.tkom
+{
+  background-color: 	#ffd199;
+  border-style: inset;
+}
+
+.user{
+  margin-top: 2%;
+  margin-bottom: 1%;
+  min-width: 0px;
+}
+
+.tk{
+  margin-left: 4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.textKomentara{
+  height: 10%;
+  margin-left: 2%;
+}
+
+.komen{
+  height: 10%;
+  margin-left: 4%;
+  font-size: 60%;
+  margin-top: 1%
+  margin-left: 4%;
+}
+
+.komNaKom{
+  margin-left: 4%;
+  margin-top: 1%
+}
+
+.textKomentaraKom{
+  height: 8%;
+  margin-left: 4%;
+}
+
+.nedivljivKom{
+  display: none;
+}
+
+.dropbtn {
+    background-color: Transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FF4D4D;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content button {
+    background-color: FireBrick;
+    color: black;
+    padding: 5px 5px;
+    display: block;
+    border: none;
+}
+
+.dropdown-content button:hover {background-color: #561010}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #561010;
+}
+
+.Bvise{
+  background-color: Transparent;
+  font-family: sans-serif;
+  border: none;
+}
+
+.Bvise:hover{
+  background-color: gray;
+}
+
+.istaLin{
+  display: inline-block;
+  min-width:0px;
+}
+
+.desno{
+  float: right;
+  align: right;
+  min-width:0px;
+  position: static;
+}
+
+.brisiStil{
+  background-color: Transparent;
+  font-family: sans-serif;
+  border: none;
+}
