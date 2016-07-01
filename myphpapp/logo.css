@@ -1,0 +1,111 @@
+.proba{
+	float:left;
+	width:100%;
+}
+
+.pivo {
+	height: 150px;
+  width: 150px;
+	position:relative;
+	border-radius:50%;
+	float:left;
+}
+
+.glavni {
+  height: 100px;
+  width: 50px;
+  position: relative;
+  top: 18%;
+  left: 33%;
+  background: #F1D744;
+  border-radius: 15px;
+  opacity: 0.9;
+  box-shadow: inset 0 50px rgba(255,255,255,0.2),
+				inset 0 -15px 30px rgba(0,0,0,0.4),
+                  0 0px 0px rgba(0,0,0,0.5);
+	transition-property: height, top;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.rucka1 {
+	height: 7.5px;
+	width: 34px;
+	top: 31%;
+	left: 10%;
+	position: absolute;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: inset 0 50px rgba(255,255,255,0.2),
+				inset 0 -30px 30px rgba(0,0,0,0.4),
+                  0 0px 0px rgba(0,0,0,0);
+}
+
+.rucka2 {
+	height: 40px;
+	width: 7.5px;
+	top: 31%;
+	left: 8%;
+	position: absolute;
+	background-color: white;
+	border-radius: 10px;
+	transform: rotate(180deg);
+	box-shadow: inset 0 50px rgba(255,255,255,0.2),
+				inset 0 -15px 30px rgba(0,0,0,0.4),
+                  0 0px 0px rgba(0,0,0,0);
+}
+.rucka3 {
+	height: 45px;
+	width: 7.5px;
+	top: 50%;
+	left: 20%;
+	transform: rotate(310deg);
+	position: absolute;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: inset 0 50px rgba(255,255,255,0.2),
+				inset 0 -20px 30px rgba(0,0,0,0.4),
+                  0 0px 0px rgba(0,0,0,0);
+}
+
+.krigla {
+  height: 57.5px;
+  width: 109px;
+  position: absolute;
+  top: 33%;
+  left: 13%;
+  transform: rotate(90deg);
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: inset 0 50px rgba(255,255,255,0.2),
+			  inset 0 -15px 30px rgba(0,0,0,0.4),
+                0 0px 0px rgba(0,0,0,0.5);
+
+}
+
+.glavni:hover {
+	height: 10px;
+	top: 78%
+}
+
+
+.mojbutton{
+  height: 70px;
+  width: 120px;
+  background-color: white;
+  border-radius: 15px;
+  position:relative;
+  box-shadow: inset 0 50px rgba(255,255,255,0.2),
+			  inset 0 -15px 30px rgba(0,0,0,0.4),
+                0 0px 0px rgba(0,0,0,0.5);
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:40px;
+	transition-property: background;
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+}
+
+.mojbutton:hover {
+  background: #F1D744;
+}
